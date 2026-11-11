@@ -1,0 +1,273 @@
+.Caveat-title {
+    font-family: "Caveat", cursive sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.roboto-body {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.hero {
+    height: 97vh;
+    background-image: url(./images/pexels-tobias-eicher-2160223093-37224004.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.profile-image {
+    height: 437.2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.profile img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+
+h1 {
+    color: azure;
+    margin-top: 10%;
+    font-family: Caveat;
+    font-size: 6rem;
+}
+
+.hero p {
+    color: azure;
+    font-family: Roboto;
+    font-size: 1.2rem;
+
+}
+
+.profile-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    color: #DDCFA6;
+    font-family: Roboto;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.profile p {
+    color: black;
+    font-family: Roboto;
+    font-size: 1.05rem;
+
+    margin-bottom: 1.5rem;
+    max-width: 60ch;
+
+}
+
+
+hr {
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px 50px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.about {
+    text-align: center;
+}
+
+.about h2 {
+    margin-bottom: 150px;
+
+}
+
+.about-image img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding: 20px;
+}
+
+.about h3 {
+    color: #DDCFA6;
+    font-family: Roboto;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.about-text p {
+    font-family: Roboto;
+    font-size: 1.125rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact h2 {
+    color: #DDCFA6;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+
+}
+
+.contact h3 {
+    color: #DDCFA6;
+    font-family: "Montserrat", sans-serif;
+}
+
+.contact p {
+    font-family: roboto;
+    max-width: 650px;
+    margin: 40px auto 50px;
+    line-height: 1.6;
+    font-size: 1.125rem;
+}
+
+
+.btn {
+    text-align: center;
+    margin: 10px 20px;
+    background: #11cdd4;
+    background-image: linear-gradient(to bottom, #DDCFA6, #D2BB80);
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: white;
+    background-image: linear-gradient(to bottom, #462C1F, #715542);
+    text-decoration: none;
+}
+
+a:hover {
+    color: #eaf6f6;
+}
+
+.bottom-container {
+    margin-top: 100px;
+    color: #40514e;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    background-color: #DDCFA6;
+    padding: 55px 0 50px;
+}
+
+a {
+    color: #c7a968;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+.bottom-container p {
+    color: #c7a968;
+}
+
+@media (max-width:768px) {
+    .container {
+        grid-template-columns: 1fr;
+        gap: 25px;
+        padding: 0 20px;
+        max-width: 100%;
+    }
+
+    .about h2 {
+        margin-bottom: 40px;
+        font-size: 1.75rem;
+    }
+
+    .about-image {
+        width: 100%;
+        
+    }
+
+    .about-image img {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .about-text {
+        width: 100%;
+        padding: 5px 10px;
+        text-align: center;
+        justify-content: flex-start;
+    }
+
+
+    .about h3 {
+        font-size: 1.35rem;
+        margin-bottom: 12px;
+        text-align: center;
+    }
+
+    .about-text p {
+        font-size: 1rem;
+        line-height: 1.7;
+        text-align: center;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:400px) {
+    .hero h1, .hero p {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 3rem;
+    }
+
+
+}
