@@ -10,7 +10,7 @@ information, and adding my own contact details.
 
 ## Live Demo
 
-Add your deployed website URL here.
+https://ashkanhussaini.github.io/Simple-personal-website/
 
 ## About the Project
 
@@ -49,7 +49,7 @@ While building and customizing this project, I practised:
 1.  Clone this repository:
 
     ``` bash
-    git clone <your-repository-url>
+    git clone https://github.com/ashkanhussaini/Simple-personal-website
     ```
 
 2.  Open the project folder.
